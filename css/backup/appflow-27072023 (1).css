@@ -1,0 +1,70 @@
+.pagetitle {
+    padding: 40px 0;
+    background-image: url(../images/price-clone/inner-banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pagetitle-inner {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1.page-heading {
+    font-size: 41px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+img {
+    max-width: 100%;
+}
+.graphical-manual-flow {
+    text-align: center;
+}
+#midd-part {
+    max-width: 1920px;
+    margin: 80px auto 0 auto;
+}
+._MT0_ {
+    margin-top: 0 !important;
+}
+.white_bg {
+    background-color: #fff !important;
+}
+.sky_bg {
+    background-color: #e0ecf4 !important;
+}
+.orange_bg {
+    background-color: #f2edeb !important;
+}
+.green_bg {
+    background-color: #e2f3db !important;
+}
+.purple_bg {
+    background-color: #f2ecf7 !important;
+}
+.yellow_bg {
+    background-color: #e8e5cb !important;
+}
+.blue_bg {
+    background-color: #cfdcf0 !important;
+}
+.gray_bg {
+    background-color: #f8f8f8 !important;
+}
+.Moccasin_bg {
+    background-color: #FFE4B5 !important;
+}
+.AliceBlue_bg {
+    background-color: #F0F8FF !important;
+}
+.LightYellow_bg {
+    background-color: #FFFFE0 !important;
+}
+.magenta_bg {
+    background-color: #f5effa !important;
+}
+._PT0_ {
+    padding-top: 0 !important;
+}

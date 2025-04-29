@@ -1,0 +1,1455 @@
+.section-common-content img,
+.taxi-app-page-inner p img,
+.uber-pricing-package-inner-scroll p img {
+  max-width: 100%
+}
+b {
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#midd-part {
+  max-width: 1920px;
+  margin: 80px auto 0 auto;
+}
+.pagetitle {
+  padding: 40px 0;
+  background-image: url(../images/price-clone/inner-banner-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pagetitle-inner {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.pagetitle h1 {
+  text-transform: uppercase;
+}
+body {
+  font-size: 15px;
+  color: #363636
+}
+h1.page-heading {
+  font-size: 41px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700
+}
+h1.page-heading span {
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: #FF6F02;
+  display: block
+}
+h3.inner-heading {
+  color: #000;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px
+}
+.lyft-clone {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%
+}
+.section-common-content {
+  margin: 0;
+  padding: 30px 0;
+  float: left;
+  width: 100%
+}
+.section-common-content h3.inner-heading {
+  margin: 0 0 15px;
+  padding: 0;
+  float: left;
+  width: 100%
+}
+.section-common-content p {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  line-height: 24px
+}
+.section-common-content ul {
+  margin: 0 0 22px;
+  padding: 0;
+  float: left;
+  widows: 100%
+}
+.section-common-content ul li {
+  list-style-type: none;
+  background: url(../images/disc.png) 2px 10px no-repeat;
+  padding: 0 0 0 20px;
+  margin: 0 0 10px;
+  float: left;
+  width: 100%
+}
+.banner-img {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  height: 291px
+}
+.banner-img h4 {
+  color: #fff;
+  float: left;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 33px 0 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 1px 2px 1px #000;
+  width: 100%
+}
+.banner-img h4 b {
+  float: left;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 10px 0 0;
+  padding: 0;
+  width: 100%
+}
+.gray-color-bg,
+.uber-visuals-mid,
+.uber-visuals-mid img {
+  margin: 0;
+  float: left;
+  width: 100%
+}
+.gray-color-bg {
+  background: #f0f0f0;
+  padding: 20px 0 10px
+}
+.uber-visuals-mid {
+  padding: 30px 0;
+  height: auto
+}
+.uber-visuals-mid img {
+  padding: 0 0 30px
+}
+.uber-visuals-mid h3 {
+  margin: 0 0 20px;
+  color: #000
+}
+.uber-visuals-mid h4.inner-heading {
+  color: #000;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 0 0 20px
+}
+.taxi-app-page-inner h3,
+.taxi-app-page-inner h4 {
+  color: #1f1f1f;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0;
+  float: left
+}
+.uber-visuals-bottom {
+  margin: 30px 0;
+  padding: 0;
+  float: left;
+  width: 100%
+}
+.uber-visuals-bottom ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%
+}
+.uber-visuals-bottom ul li {
+  margin: 0 23px 0 0;
+  padding: 0;
+  float: left;
+  width: 32%;
+  border: none
+}
+.uber-visuals-bottom ul li:nth-child(3) {
+  margin-right: 0
+}
+#taxi-app-page {
+  margin: 25px 0 40px 0;
+  padding: 0;
+}
+.taxi-app-page-inner {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1310px
+}
+.taxi-app-page-inner h3 {
+  font-size: 33px;
+  margin: 0 0 20px;
+  width: 100%
+}
+.taxi-app-page-inner h4 {
+  font-size: 28px;
+  margin: 20px 0;
+  width: 100%
+}
+.taxi-app-page-inner ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%
+}
+.taxi-app-page-inner ul li {
+  color: #000;
+  float: left;
+  font-size: 15px;
+  margin: 0 0 14px;
+  padding: 0 0 0 0;
+  width: 97%
+}
+.taxi-app-page-inner p,
+.taxi-app-page-inner span {
+  color: #000;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0 0 15px;
+}
+.taxi-app-page-inner p {
+  padding: 0
+}
+.taxi-app-page-inner span {
+  padding: 0
+}
+.taxi-app-page-inner span h2,
+.taxi-app-page-inner span h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  float: none;
+  display: inline-block;
+  color: #000;
+  padding: 0
+}
+.taxi-app-page-inner span h3 {
+  text-transform: none;
+  width: auto
+}
+.uber-pricing-package-inner-scroll {
+  margin: 20px 0 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+  text-align: center
+}
+.uber-pricing-package-inner-scroll p img {
+  width: 1386px;
+  max-width: unset;
+}
+.buy-button-block .buy-now {
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  border-radius: 0 0 3px 3px;
+  height: 150px;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  width: 203px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+.buy-button-block {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 100.3%;
+}
+span.not-salling {
+  line-height: normal;
+  height: auto;
+  display: block;
+  font-size: 14px;
+  position: relative;
+  text-transform: initial;
+  font-weight: normal;
+  color: #000;
+}
+.orange {
+  background-color: #f19e00;
+}
+.orange:hover {
+  background-color: darkgrey;
+}
+.blue {
+  background-color: #027cdd;
+}
+.blue:hover {
+  background-color: darkgrey;
+}
+.green {
+  background-color: #4bb702;
+}
+.green:hover {
+  background-color: #3a7c0e;
+}
+.plan_button {
+  padding: 13px 30px 15px 30px;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  margin: 10px 0 30px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.plan_button:hover {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.PRICE_TABLE {
+  display: table;
+  width: 100%;
+}
+.PRICE_TABLE ._TR_ {
+  display: table-row;
+}
+
+.PRICE_TABLE ._TD_ .shape {
+  font-size: 20px;
+}
+.PRICE_TABLE ._TD_ .shape b.b, .PRICE_TABLE ._TD_ .shape b.b {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.PRICE_TABLE ._TD_ .shape b {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.PRICE_TABLE ._TD_ .shape span.diactive {
+  font-weight: 500;
+  display: block;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  color: #ddd;
+  width: auto;
+  margin: 5px 0 0 0;
+}
+.PRICE_TABLE ._TD_ .shape span.diactive:after {
+  border-top: 1px solid;
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  left: 0;
+}
+.PRICE_TABLE ._TD_ .clientvideos {
+  display: inline-block;
+  margin-left: 6px;
+}
+.PRICE_TABLE ._TD_ .clientvideos img {
+  width: 28px;
+}
+.PRICE_TABLE ._TD_.pachage-column > div {
+  padding: 0 28px;
+  position: relative;
+  margin-bottom: 35px;
+}
+.PRICE_TABLE ._TD_.pachage-column.orange > div {
+  background-color: #f19e00;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div {
+  background-color: #4BB702;
+}
+.PRICE_TABLE ._TD_.pachage-column span {
+  display: block;
+  font-size: 16px;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_ {
+  border-width: 0;
+  background-color: transparent;
+  padding-top: 0;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_:first-child {
+  border-left-width:0;
+}
+.PRICE_TABLE ._TR_ ._TD_:first-child {
+  text-align: center;
+  width: 50px;
+  border-left-width:1px;
+}
+.PRICE_TABLE ._TR_.hilight ._TD_ {
+  background-color: #f8f8f8;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_.pachage-column {
+  background-color: #fff;
+}
+/* .PRICE_TABLE ._TR_._HEAD_ ._TD_ {
+  border-width: 0;
+} */
+.PRICE_TABLE ._TD_.pachage-column > div:after {
+  border-top: 30px solid #f19e00;
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  right:0;
+}
+.PRICE_TABLE ._TD_.pachage-column > div:before {
+  border-top: 30px solid #f19e00;
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left:0;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div:after,
+.PRICE_TABLE ._TD_.pachage-column.green > div:before {
+  border-top-color: #4BB702;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_:first-child,.PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2) {
+  background-color: #ff6e00;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div:after{
+  border-right-width:81px;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div:before {
+  border-left-width:81px;
+}
+.PRICE_TABLE ._TR_:last-child ._TD_ {
+  background-color: transparent;
+  padding: 0;
+}
+.PRICE_TABLE ._TD_ a.buy-package,a.buy-package-mob {
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  border-radius: 0 0 3px 3px;
+  display: inline-block;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+}
+a.buy-package-mob {
+  text-align: center;
+  margin: 0 15px;
+}
+.PRICE_TABLE {
+  display: table;
+  width: 100%;
+  margin-top: 80px;
+  border: 1px solid #ddd;
+}
+.PRICE_TABLE ._TR_ {
+  display: table-row;
+}
+.PRICE_TABLE ._TD_ {
+  display: table-cell;
+  padding: 15px;
+  border-style:solid;
+  border-color:#cfcfcfcf;
+  border-width:0 1px 1px 1px;
+  vertical-align: middle;
+  font-size: 15px;
+  text-align: left;
+  line-height: normal;
+  font-weight: 400;
+}
+.PRICE_TABLE h2 {
+  margin: 0 0px 0 0;
+  padding: 0;
+  font-size: 40px;
+  color: #131313;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+}
+.PRICE_TABLE h2 span {
+  font-size: inherit;
+  color: #ff6e00;
+}
+.PRICE_TABLE ._TD_.pachage-column {
+  width: 249px;
+  max-width: 249px;
+  text-align: center;
+  padding: 0;
+  background-color: #EDEDED;
+  color: #fff;
+}
+.PRICE_TABLE ._TD_.pachage-column small.blink{
+  font-size: 12px;
+  line-height: normal;
+  height: auto;
+  color: #000;
+  display: block;
+  letter-spacing: 1px;
+  margin: 3px 0 5px 0;
+  text-transform: uppercase;
+}
+.PRICE_TABLE ._TR_.hilighted ._TD_ {
+  background-color: #dfffba;
+}
+.PRICE_TABLE ._TD_ .shape {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 600;
+}
+.PRICE_TABLE ._TD_ .clientvideos {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+.PRICE_TABLE ._TD_ .clientvideos img {
+  width: 20px;
+}
+.PRICE_TABLE ._TD_.pachage-column > div {
+  padding: 20px 20px 0 20px;
+  position: relative;
+  margin-bottom: 0;
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.PRICE_TABLE ._TD_.pachage-column.orange > div {
+  background-color: #f19e00;
+}
+.PRICE_TABLE ._TD_.pachage-column.blue > div {
+  background-color: #0298a8;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div {
+  background-color: #4BB702;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div span.discount-label,
+.PRICE_TABLE ._TD_.pachage-column.blue > div span.discount-label {
+    position: absolute;
+    font-size: 12px;
+    width: 125px;
+    height: 120px;
+    background-image: url(../images/price-2020/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    right: -93px;
+    top: -74px;
+    flex-direction: column;
+    text-transform: initial;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    line-height: normal;
+
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div span.discount-label label,
+.PRICE_TABLE ._TD_.pachage-column.blue > div span.discount-label label {
+    width: 46px;
+    height: 46px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fe8f00;
+    position: absolute;
+    left: 11px;
+    top: -19px;
+    line-height: 45px;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div span.discount-label .discoumt-txt,
+.PRICE_TABLE ._TD_.pachage-column.blue > div span.discount-label .discoumt-txt {
+    margin-top: -20px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: none;
+    color: #fff;
+    line-height: 1em;
+}
+
+.PRICE_TABLE ._TD_.pachage-column span {
+  display: block;
+  font-size: 16px;
+  min-height: 11px;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_ {
+  border-width: 0px 0px 1px 0;
+  background-color: transparent;
+  padding-top: 0;
+}
+.PRICE_TABLE ._TR_ ._TD_:nth-child(3) {
+  border-left-width: 1px;
+  border-right-width: 0;
+}
+.PRICE_TABLE ._TR_ ._TD_:nth-child(3) {
+    background-color: #fff9ef;
+}
+.PRICE_TABLE ._TR_ ._TD_:nth-child(4) {
+    background-color: #e2fcff;
+}
+.PRICE_TABLE ._TR_ ._TD_:nth-child(5) {
+    background-color: #f5ffef;
+}
+.PRICE_TABLE ._TD_:nth-child(3),
+.PRICE_TABLE ._TD_:nth-child(4),
+.PRICE_TABLE ._TD_:nth-child(5) {
+  background-color: #eee;
+  text-align: center;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_.pachage-column:nth-child(3),
+.PRICE_TABLE ._TR_:first-child ._TD_.pachage-column:nth-child(4),
+.PRICE_TABLE ._TR_:first-child ._TD_.pachage-column:nth-child(5) {
+  background-color: #eee;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_:first-child,
+.PRICE_TABLE ._TR_:first-child ._TD_:nth-child(2) {
+  border-left-width:0;
+}
+.PRICE_TABLE ._TR_ ._TD_:nth-child(5) {
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #fff #dbdbdb #cfcfcf #fff;
+  box-sizing: border-box;
+  position: relative;
+}
+.PRICE_TABLE ._TR_ ._TD_:first-child {
+  text-align: center;
+  width: 50px;
+  border-left-width:0;
+}
+.PRICE_TABLE ._TR_:first-child ._TD_.pachage-column {
+  background-color: #fff;
+}
+/* .PRICE_TABLE ._TR_._HEAD_ ._TD_ {
+  border-width: 0;
+} */
+.PRICE_TABLE ._TR_._HEAD_ ._TD_ .sub-data-desc {
+  padding: 0 0 0 0;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  text-transform: initial;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.PRICE_TABLE ._TD_.pachage-column > div::after {
+  display: none;
+}
+.PRICE_TABLE ._TD_.pachage-column > div:before {
+  display: none;
+}
+.PRICE_TABLE ._TD_.pachage-column.bule > div:after {
+  border-top: 30px solid #027fe0;
+}
+.PRICE_TABLE ._TD_.pachage-column.bule > div:before {
+  border-top: 30px solid #027fe0;
+}
+.PRICE_TABLE ._TD_.pachage-column.bule > div {
+  background-color: #027fe0;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div:after,
+.PRICE_TABLE ._TD_.pachage-column.green > div:before {
+  border-top-color: #4BB702;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_:first-child,
+.PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2) {
+  background-color: #ff6e00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+.PRICE_TABLE ._TD_:last-child {
+  text-align: center;
+}
+.PRICE_TABLE ._TD_:nth-child(2) {
+  border-right-width: 0;
+  border-left-width: 0;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div:after{
+  border-right-width:109px;
+}
+.PRICE_TABLE ._TD_.pachage-column.green > div:before {
+  border-left-width:109px;
+}
+.PRICE_TABLE ._TD_.pachage-column.blue > div:after{
+  border-right-width:100px;
+  border-top-color:#0298a8;
+}
+.PRICE_TABLE ._TD_.pachage-column.blue > div:before {
+  border-left-width:100px;
+  border-top-color:#0298a8;
+}
+.PRICE_TABLE ._TR_:last-child ._TD_ {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+.PRICE_TABLE ._TR_:last-child ._TD_:first-child,
+.PRICE_TABLE ._TR_:last-child ._TD_:nth-child(2) {
+  border: none;
+}
+.PRICE_TABLE ._TD_ a.buy-package {
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 149px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  padding: 0 15px;
+  line-height: 1em;
+
+}
+.PRICE_TABLE ._TD_ a.buynow1 {
+  background-color: #f19e00 !important;
+}
+.PRICE_TABLE ._TD_ a.buynow2 {
+  background-color: #027cdd !important;
+}
+.PRICE_TABLE ._TD_ a.buynow1:hover,
+.PRICE_TABLE ._TD_ a.buynow2:hover {
+  background-color: darkgray !important;
+}
+a.buy-package-mob {
+  text-align: center;
+  margin: 0 15px;
+}
+.PRICE_TABLE ._TD_ a.buy-package.orange {
+  background-color: #f19e00;
+}
+.PRICE_TABLE ._TD_ a.buy-package.orange:hover {
+  background-color: #dc9103;
+}
+.PRICE_TABLE ._TD_ a.buy-package.green,a.buy-package-mob {
+  background-color: #4bb702;
+}
+.PRICE_TABLE ._TD_ a.buy-package.blue {
+  background-color: #0298a8;
+}
+.PRICE_TABLE ._TD_ a.buy-package.green:hover,a.buy-package-mob:hover {
+  background-color: #54ce01;
+}
+.PRICE_TABLE ._TD_ a.buy-package.blue:hover {
+  background-color: #00626d;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2) {
+  text-transform: uppercase;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.DUAL:nth-child(2):before {
+  border-bottom-width: 37px;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.DUAL:nth-child(2):after {
+  border-top-width: 37px;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.TRIPPLE:nth-child(2):before {
+  border-bottom-width: 45px;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.TRIPPLE:nth-child(2):after {
+  border-top-width: 45px;
+}
+.PRICE_TABLE ._TR_._HEAD_.HAS_BLUE_BG ._TD_:first-child,
+.PRICE_TABLE ._TR_._HEAD_.HAS_BLUE_BG ._TD_:nth-child(2),
+.PRICE_TABLE ._TR_._HEAD_.HAS_BLUE_BG ._TD_:first-child:before {
+  background-color: #027cdd;
+}
+.PRICE_TABLE ._TR_._HEAD_.HAS_BLUE_BG ._TD_:first-child:after,
+.PRICE_TABLE ._TR_._HEAD_.HAS_BLUE_BG ._TD_:nth-child(2):after {
+  border-top-color: #027cdd;
+}
+.PRICE_TABLE ._TR_._HEAD_.HAS_BLUE_BG ._TD_:nth-child(2):before {
+  border-bottom-color: #027cdd;
+}
+.sub-data-desc {
+  top: 40px;
+  padding: 0 20px 0 0;
+  width: auto;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  text-transform: initial;
+}
+ul.list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+ul.list {
+  margin-top: 8px;
+}
+/* ******************* */
+.deliverall-pricing-inner img {
+  max-width: 100%;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul {
+  list-style: none;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul li {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul.complisting {
+  margin-bottom: 10px;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul.complisting li {
+  position: relative;
+  padding: 0 0 0 18px;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul.complisting b {
+  display: block;
+  margin-bottom: 0.5px;
+}
+.PRICE_TABLE ._TR_ strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+/********************************************/
+.boxcolor9:first-child,
+.boxcolor9:nth-child(2),
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.boxcolor9:first-child:before {
+  background-color: #0fb158 !important;
+  color: #fff !important;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.boxcolor9:nth-child(2):before,
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.boxcolor9:nth-child(2):after {
+  border-top-color: #0fb158;
+  border-bottom-color: #0fb158;
+}
+.PRICE_TABLE ._TR_._HEAD_ ._TD_.boxcolor9:first-child:after {
+  border-top-color: #087e3d !important;
+}
+/********************************************/
+/************************************/
+body.overflow {
+  overflow: hidden;
+}
+.payment-gatewaylist-block {
+  max-width: 1310px;
+  background-color: #fff;
+  margin: 0 auto;
+  height: 100%;
+}
+.payment-gatewaylist {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-style: solid;
+  border-width: 40px 20px;
+  border-color: transparent;
+  background-color: rgba(0,0,0,0.6);
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  z-index: 11111;
+  height: 100vh;
+}
+.payment-gatewaylist.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+[data-toggle="modal"] {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 !important;
+  color: #44ac00 !important;
+  text-decoration: underline;
+  line-height: normal !important;
+}
+[data-toggle="modal"]:hover {
+  color: #ff6e00 !important;
+}
+[data-dismiss="modal"] {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+}
+[data-dismiss="modal"] img {
+  width: 23px;
+  height: 23px;
+}
+.payment-gateway {
+  padding: 26px 0 26px 6px;
+  height: calc(100vh - 180px);
+  height: -o-calc(100vh - 180px);
+  height: -moz-calc(100vh - 180px);
+  height: -webkit-calc(100vh - 180px);
+}
+.payment-gateway-inner {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0;
+}
+.page-title {
+  padding: 30px 0;
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+}
+.page-title-inner {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.page-title h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+}
+.payment-gateway-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 20px 0 10px;
+}
+.payment-gateway-column strong {
+  padding: 10px;
+  display: block;
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  border-color: #ccc;
+}
+.BGCOLOR1 {
+  background-color: #ffe599;
+}
+.BGCOLOR2 {
+  background-color: #fce5cd;
+}
+.BGCOLOR3 {
+  background-color: #cdf1fc;
+}
+.TABLE {
+  display: table;
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  border-color: #ccc;
+  width: 100%;
+}
+.TR {
+  display: table-row;
+}
+.TH {
+  display: table-cell;
+  border-style: solid;
+  border-width: 0px 1px 1px 0;
+  border-color: #ccc;
+  padding: 7px 10px;
+  background-color: #d9ead3;
+  font-weight: 600;
+  color: #000;
+  font-size: 16px;
+}
+.TD {
+  display: table-cell;
+  border-style: solid;
+  border-width: 0px 1px 1px 0;
+  border-color: #ccc;
+  padding: 7px 10px;
+  background-color: #fff;
+  font-size: 15px;
+}
+.TD ul {
+  list-style: decimal;
+  margin: 0 0 0 16px;
+}
+.gateway-videos {
+  padding: 40px 0;
+  background-color: #fff8f3;
+}
+.gateway-videos-inner {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1310px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+}
+.gateway-video-block strong {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.gateway-video-block a {
+  border: 1px solid #ccc;
+  display: block;
+}
+
+ul.complisting {
+  margin-bottom: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+ul.complisting li .video-main {
+  display: block;
+  text-align: right;
+  width: 100%;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+ul.complisting li .video-main .clientvideos img{
+  width: 18px;
+}
+ul.complisting:last-child {
+  margin-bottom: 0;
+}
+.PRICE_TABLE ._TR_:nth-child(2) ul.complisting li,
+.PRICE_TABLE ._TR_:nth-child(3) ul.complisting li,
+.PRICE_TABLE ._TR_:nth-child(4) ul.complisting li {
+  text-align: left;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 44px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  width: 100%;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 4.44px rgba(0,0,0,0.15);
+}
+.PRICE_TABLE ._TR_:nth-child(2) ul.complisting li i,
+.PRICE_TABLE ._TR_:nth-child(3) ul.complisting li i,
+.PRICE_TABLE ._TR_:nth-child(4) ul.complisting li i {
+  content: '';
+  display: inline-flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.PRICE_TABLE ._TR_:nth-child(2) ._TD_ {
+  padding: 10px;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul.complisting li {
+  color: #000;
+  font-size: 14px;
+  position: relative;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul.complisting li small {
+  font-size: 15px;
+  font-weight: 600;
+}
+.PRICE_TABLE ._TR_ ._TD_ ul.complisting li i img{
+  height: 45px;
+}
+ul.complisting.have_three {
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 10px;
+}
+.PRICE_TABLE ._TD_.valign {
+  vertical-align: top;
+}
+/* .PRICE_TABLE ._TD_.pachage-column > div {
+  padding: 0 0 15px 0;
+  position: relative;
+  min-height: 50px;
+} */
+.mCSB_inside>.mCSB_container {
+  margin-right: 0 !important;
+}
+
+/********************************************/
+@media screen and (max-width:1400px) {
+  .PRICE_TABLE ._TD_.pachage-column.green>div span.discount-label {
+    top: -120px;
+    right: 0;
+  }
+
+  .PRICE_TABLE {
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width:1366px) {
+  .uber-pricing-package-inner-scroll img {
+    max-width: 100%;
+  }
+
+  .buy-button-block {
+    width: 94.5%;
+  }
+
+  .buy-button-block .buy-now {
+    width: 14vw;
+    margin-left: 0.8vw;
+    font-size: 1.5vw;
+    height: 11vw;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  ul.complisting {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width:1024px) {
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2):before {
+    display: none;
+  }
+
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2):after {
+    display: none;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.blue>div span.discount-label,
+  .PRICE_TABLE ._TD_.pachage-column.green>div span.discount-label {
+    top: -100px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    font-size: 10px;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.blue>div span.discount-label .discoumt-txt,
+  .PRICE_TABLE ._TD_.pachage-column.green>div span.discount-label .discoumt-txt {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .PRICE_TABLE ._TD_ {
+    font-size: 1.5vw;
+    padding: 1.5vw;
+  }
+
+  .PRICE_TABLE ._TR_ strong,
+  .PRICE_TABLE ._TR_ ._TD_ ul li,
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2),
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_ .sub-data-desc,
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:first-child,
+  .PRICE_TABLE ._TD_ .shape span.diactive {
+    font-size: 1.5vw;
+    line-height: normal;
+    margin-bottom: 0.5vw;
+  }
+
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:nth-child(2)>span,
+  .PRICE_TABLE h2~p {
+    font-size: 1.5vw !important;
+    line-height: normal;
+  }
+
+  .PRICE_TABLE h2 {
+    font-size: 2.8vw;
+    line-height: 1em;
+  }
+
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:first-child:before {
+    width: 1.5vw;
+    left: -1.5vw;
+  }
+
+  .PRICE_TABLE ._TR_._HEAD_ ._TD_:first-child:after {
+    border-top: 1.3vw solid #d95d00;
+    border-left: 1.5vw solid transparent;
+    left: -1.5vw;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column>div {
+    padding: 0px;
+  }
+
+  .PRICE_TABLE ._TD_ .shape,
+  .PRICE_TABLE ._TD_ .shape b.b,
+  .PRICE_TABLE ._TD_ .shape b.b,
+  .PRICE_TABLE ._TD_ .shape b {
+    font-size: 1.5vw;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column small.blink {
+    font-size: 1.2vw;
+  }
+
+  .taxi-app-page-inner ._TD_ span {
+    font-size: 1.5vw;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column>div::before {
+    border-top: 2.9vw solid #f19e00;
+    bottom: -2.8vw;
+    border-left: 8.2vw solid transparent;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.blue>div:before {
+    border-top: 2.9vw solid #0298a8;
+    bottom: -2.8vw;
+    border-left: 7.1vw solid transparent;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column>div:after {
+    border-top: 2.9vw solid #f19e00;
+    bottom: -2.8vw;
+    border-right: 8.2vw solid transparent;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.blue>div:after {
+    border-top: 2.9vw solid #0298a8;
+    bottom: -2.8vw;
+    border-right: 7.1vw solid transparent;
+  }
+  ul.complisting li .video-main .clientvideos img {
+    width: 1.8vw;
+    height: 1.8vw;
+  }
+  ul.complisting li .video-main .clientvideos {
+    width: 1.8vw;
+    height: 1.8vw;
+    line-height: normal;
+  }
+  .PRICE_TABLE ._TD_ .clientvideos,
+  .PRICE_TABLE ._TD_ .clientvideos img {
+    width: 2.6vw;
+    vertical-align: top;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column {
+    width: 19vw;
+    max-width: 19vw;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.green>div:before {
+    border-left-width: 7.6vw;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.green>div::after {
+    border-right-width: 7.6vw;
+  }
+
+  .PRICE_TABLE ._TR_ ._TD_:nth-child(5) {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #fff #dedede #cfcfcf #fff;
+    box-sizing: border-box;
+  }
+
+  .PRICE_TABLE ._TR_ ._TD_:nth-child(5)::after {
+    left: -6px;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.bule>div:before,
+  .PRICE_TABLE ._TD_.pachage-column.bule>div:after {
+    border-top: 2.9vw solid #027fe0;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column>div {
+    padding: 1vw 1vw 0 1vw;
+    min-height: 21vw;
+  }
+
+  .PRICE_TABLE ._TD_ a.buy-package {
+    font-size: 2.2vw;
+  }
+
+  .PRICE_TABLE ._TD_>img {
+    width: 2vw;
+  }
+
+  .PRICE_TABLE ._TR_ ._TD_:first-child {
+    width: 5vw;
+  }
+
+  .PRICE_TABLE ._TD_ a.buy-package {
+    height: 14.9vw;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.orange>div {
+    background-color: #f19e00;
+  }
+
+  .PRICE_TABLE ._TR_ ._TD_ ul.complisting li {
+    padding: 0 0 0 1.8vw;
+  }
+  .PRICE_TABLE ._TR_:nth-child(3) ul.complisting li {
+    padding: 10px;
+  }
+  .plan_button {
+    padding: 1.3vw 3vw 1.7vw 3vw;
+    font-size: 1.7vw;
+  }
+  .PRICE_TABLE ._TR_:nth-child(3) ul.complisting li i {
+    margin-bottom: 1vw;
+  }
+  .PRICE_TABLE ._TR_ ._TD_ ul.complisting li small {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .banner .taxi-app-page-inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .payment-gateway-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gateway-videos-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gateway-video-block:last-child {
+    grid-column: span 2;
+  }
+
+  .page-title h1 {
+    font-size: 30px;
+  }
+
+  .payment-gateway-column {
+    width: 100%;
+  }
+  ul.complisting {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .payment-gateway {
+    padding: 10px 0 10px 6px;
+  }
+
+  .page-title {
+    padding: 20px 0;
+  }
+
+  .page-title h1 {
+    font-size: 25px;
+  }
+
+  [data-dismiss="modal"] {
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+}
+
+
+@media screen and (max-width:568px) {
+
+
+  .PRICE_TABLE ._TD_.pachage-column.blue>div span.discount-label,
+  .PRICE_TABLE ._TD_.pachage-column.green>div span.discount-label {
+    right: -5px;
+    background-image: none;
+    background-color: #f19e00;
+    border-radius: 14px;
+    top: -120px;
+    width: auto;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.blue>div span.discount-label:after {
+    content: '';
+    display: inline-block;
+    border-top: 15px solid #f19e00;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    bottom: -15px;
+    position: absolute;
+    right: 10px;
+  }
+
+  .PRICE_TABLE ._TD_.pachage-column.green>div span.discount-label:after {
+    content: '';
+    display: inline-block;
+    border-top: 15px solid #f19e00;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    bottom: -15px;
+    position: absolute;
+    right: 42px;
+  }
+  .PRICE_TABLE ._TD_.pachage-column.blue>div span.discount-label {
+    margin-right: 18px;
+  }
+  .PRICE_TABLE {
+    margin-top: 140px;
+  }
+  h1.page-heading {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width:480px) {
+  .PRICE_TABLE ._TR_ ._TD_ ul.complisting li i img {
+    width: 5vw;
+    height: 5vw;
+  }
+  .PRICE_TABLE ._TR_:nth-child(3) ul.complisting li {
+    padding: 1vw;
+  }
+  .PRICE_TABLE ._TD_.pachage-column.green>div span.discount-label label {
+    font-size: 3.5vw;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+  }
+}

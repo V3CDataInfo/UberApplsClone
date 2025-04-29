@@ -1,0 +1,1463 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k3a8cb');
+  src:  url('fonts/icomoon.eot?k3a8cb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k3a8cb') format('truetype'),
+    url('fonts/icomoon.woff?k3a8cb') format('woff'),
+    url('fonts/icomoon.svg?k3a8cb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.footer-bottom p small {
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-web-admin:before {
+  content: "\ea00";
+}
+.icon-support-panel:before {
+  content: "\ea01";
+}
+.icon-user-app:before {
+  content: "\ea02";
+}
+.icon-taxi-app:before {
+  content: "\ea03";
+}
+.icon-clock-time:before {
+  content: "\e9fb";
+}
+.icon-doostep-delivery:before {
+  content: "\e9fc";
+}
+.icon-take-away-feature:before {
+  content: "\e9fd";
+}
+.icon-safety-badge:before {
+  content: "\e9fe";
+}
+.icon-web-mob-platform:before {
+  content: "\e9ff";
+}
+.icon-wine_cat:before {
+  content: "\e9f1";
+}
+.icon-construction_cat:before {
+  content: "\e9f2";
+}
+.icon-flower_cat:before {
+  content: "\e9f3";
+}
+.icon-food_cat:before {
+  content: "\e9f4";
+}
+.icon-grocery_cat:before {
+  content: "\e9f5";
+}
+.icon-more:before {
+  content: "\e9f6";
+}
+.icon-pharmacy_cat:before {
+  content: "\e9f7";
+}
+.icon-stationery_cat:before {
+  content: "\e9f8";
+}
+.icon-supermarket_cat:before {
+  content: "\e9f9";
+}
+.icon-water-bottle_cat:before {
+  content: "\e9fa";
+}
+.icon-stores-chain:before {
+  content: "\e9ee";
+}
+.icon-grocery-online:before {
+  content: "\e9ef";
+}
+.icon-cloud-store:before {
+  content: "\e9f0";
+}
+.icon-promo_code:before {
+  content: "\e9ec";
+}
+.icon-god-eye:before {
+  content: "\e9ed";
+}
+.icon-web-panel:before {
+  content: "\e9e6";
+}
+.icon-features:before {
+  content: "\e9e7";
+}
+.icon-application-flow:before {
+  content: "\e9e8";
+}
+.icon-more-info:before {
+  content: "\e9e9";
+}
+.icon-purchase:before {
+  content: "\e9ea";
+}
+.icon-customizations:before {
+  content: "\e9eb";
+}
+.icon-chat:before {
+  content: "\e9e5";
+}
+.icon-medicine_fill:before {
+  content: "\e9d4";
+}
+.icon-food-delivery_fill:before {
+  content: "\e9d5";
+}
+.icon-delivery_genie_fill:before {
+  content: "\e9d6";
+}
+.icon-multi_delivery:before {
+  content: "\e9d7";
+}
+.icon-car-sharing_fill:before {
+  content: "\e9d8";
+}
+.icon-moto_fill:before {
+  content: "\e9d9";
+}
+.icon-intercity_fill:before {
+  content: "\e9da";
+}
+.icon-book_later_fill:before {
+  content: "\e9db";
+}
+.icon-suitcase_fill:before {
+  content: "\e9dc";
+}
+.icon-taxi_bid_fill:before {
+  content: "\e9dd";
+}
+.icon-fruits_fill:before {
+  content: "\e9de";
+}
+.icon-supermarket_store_fill:before {
+  content: "\e9df";
+}
+.icon-flower_fill:before {
+  content: "\e9e0";
+}
+.icon-grocery_fill:before {
+  content: "\e9e1";
+}
+.icon-single-parcel-delivery:before {
+  content: "\e9e2";
+}
+.icon-delivery-runner_fill:before {
+  content: "\e9e3";
+}
+.icon-car_rent_fill:before {
+  content: "\e9e4";
+}
+.icon-arrow_right_thin:before {
+  content: "\e9cf";
+}
+.icon-clients:before {
+  content: "\e9d0";
+}
+.icon-hat:before {
+  content: "\e9d1";
+}
+.icon-play-arrow:before {
+  content: "\e9d2";
+}
+.icon-satisfied-customer:before {
+  content: "\e9d3";
+}
+.icon-rating:before {
+  content: "\e9cb";
+}
+.icon-salary_3135673:before {
+  content: "\e9cc";
+}
+.icon-certificate_3135763:before {
+  content: "\e9cd";
+}
+.icon-chair_2157306:before {
+  content: "\e9ce";
+}
+.icon-manage-gallery:before {
+  content: "\e9ca";
+}
+.icon-organization_panel:before {
+  content: "\e9c8";
+}
+.icon-taxi-dispatch:before {
+  content: "\e9c9";
+}
+.icon-front_end:before {
+  content: "\e9c5";
+}
+.icon-mobile_application:before {
+  content: "\e9c6";
+}
+.icon-admin_panel:before {
+  content: "\e9c7";
+}
+.icon-play-button:before {
+  content: "\e9c2";
+}
+.icon-right-arrow:before {
+  content: "\e9c3";
+}
+.icon-left-arrow:before {
+  content: "\e9c4";
+}
+.icon-briefcase:before {
+  content: "\e9c1";
+}
+.icon-store:before {
+  content: "\e9be";
+}
+.icon-healthy-food:before {
+  content: "\e9bf";
+}
+.icon-flowers:before {
+  content: "\e9c0";
+}
+.icon-demo-app:before {
+  content: "\e9ba";
+}
+.icon-white-label:before {
+  content: "\e9bb";
+}
+.icon-application-store:before {
+  content: "\e9bc";
+}
+.icon-home-check:before {
+  content: "\e9bd";
+}
+.icon-delivery-truck:before {
+  content: "\e9b6";
+}
+.icon-fork:before {
+  content: "\e9b7";
+}
+.icon-standard-taxi:before {
+  content: "\e9b8";
+}
+.icon-moto:before {
+  content: "\e9b9";
+}
+.icon-color-theme:before {
+  content: "\e999";
+}
+.icon-inter-city:before {
+  content: "\e99a";
+}
+.icon-ride-bidding:before {
+  content: "\e99b";
+}
+.icon-subscription-plan:before {
+  content: "\e99c";
+}
+.icon-taxi-placeholder:before {
+  content: "\e99d";
+}
+.icon-x-to-y:before {
+  content: "\e99e";
+}
+.icon-app-launched:before {
+  content: "\e99f";
+}
+.icon-award:before {
+  content: "\e9a0";
+}
+.icon-employee:before {
+  content: "\e9a1";
+}
+.icon-medicines:before {
+  content: "\e9a2";
+}
+.icon-grocery:before {
+  content: "\e9a3";
+}
+.icon-delivery_process:before {
+  content: "\e9a4";
+}
+.icon-effective_experience:before {
+  content: "\e9a5";
+}
+.icon-efective_solution:before {
+  content: "\e9a6";
+}
+.icon-manager:before {
+  content: "\e9a7";
+}
+.icon-privacy:before {
+  content: "\e9a8";
+}
+.icon-update:before {
+  content: "\e9a9";
+}
+.icon-rejectection-support:before {
+  content: "\e9aa";
+}
+.icon-source-code:before {
+  content: "\e9ab";
+}
+.icon-app:before {
+  content: "\e9ac";
+}
+.icon-delivery-rating:before {
+  content: "\e9ad";
+}
+.icon-payment-gateway:before {
+  content: "\e9ae";
+}
+.icon-currencies:before {
+  content: "\e9af";
+}
+.icon-order-tracking:before {
+  content: "\e9b0";
+}
+.icon-multi-stores:before {
+  content: "\e9b1";
+}
+.icon-single-store:before {
+  content: "\e9b2";
+}
+.icon-contactless-delivery:before {
+  content: "\e9b3";
+}
+.icon-take-away:before {
+  content: "\e9b4";
+}
+.icon-doorstep_delivery:before {
+  content: "\e9b5";
+}
+.icon-biometric:before {
+  content: "\e989";
+}
+.icon-credit-card:before {
+  content: "\e942";
+}
+.icon-login:before {
+  content: "\e984";
+}
+.icon-reward:before {
+  content: "\e985";
+  color: #474747;
+}
+.icon-social-media-advertisement:before {
+  content: "\e986";
+}
+.icon-video-call:before {
+  content: "\e987";
+}
+.icon-adwords:before {
+  content: "\e988";
+}
+.icon-alert-request:before {
+  content: "\e93a";
+}
+.icon-appointment:before {
+  content: "\e93b";
+}
+.icon-baby:before {
+  content: "\e93c";
+}
+.icon-barcode:before {
+  content: "\e93d";
+}
+.icon-call-masking:before {
+  content: "\e93e";
+}
+.icon-call-msg-user:before {
+  content: "\e93f";
+}
+.icon-cancel-delivery:before {
+  content: "\e940";
+}
+.icon-cancel-trip:before {
+  content: "\e941";
+}
+.icon-car-sharing:before {
+  content: "\e943";
+}
+.icon-contactless-delivery1:before {
+  content: "\e944";
+  color: #565656;
+}
+.icon-corporate-ride:before {
+  content: "\e945";
+}
+.icon-customer-support:before {
+  content: "\e946";
+}
+.icon-destination-later:before {
+  content: "\e947";
+}
+.icon-dis-order:before {
+  content: "\e948";
+}
+.icon-driver:before {
+  content: "\e949";
+}
+.icon-earning:before {
+  content: "\e94a";
+}
+.icon-email-phone-login:before {
+  content: "\e94b";
+}
+.icon-emr-contact:before {
+  content: "\e94c";
+}
+.icon-estimetable:before {
+  content: "\e94d";
+}
+.icon-fare-estimation:before {
+  content: "\e94e";
+}
+.icon-feedback:before {
+  content: "\e94f";
+}
+.icon-feedback1:before {
+  content: "\e950";
+}
+.icon-food-delivery:before {
+  content: "\e951";
+}
+.icon-food-order:before {
+  content: "\e952";
+}
+.icon-gender:before {
+  content: "\e953";
+}
+.icon-geo-fancing:before {
+  content: "\e954";
+}
+.icon-internal-chat:before {
+  content: "\e955";
+}
+.icon-invitation:before {
+  content: "\e956";
+}
+.icon-maintenance:before {
+  content: "\e957";
+}
+.icon-manage-document:before {
+  content: "\e958";
+}
+.icon-manage-profile:before {
+  content: "\e959";
+}
+.icon-mana-order-list:before {
+  content: "\e95a";
+}
+.icon-map-navigator:before {
+  content: "\e95b";
+}
+.icon-menu:before {
+  content: "\e95c";
+}
+.icon-mobile-phone:before {
+  content: "\e95d";
+}
+.icon-moto-rental:before {
+  content: "\e95e";
+}
+.icon-multiple-services:before {
+  content: "\e95f";
+}
+.icon-multiple-stopover:before {
+  content: "\e960";
+}
+.icon-museum:before {
+  content: "\e961";
+}
+.icon-note:before {
+  content: "\e962";
+}
+.icon-notebook:before {
+  content: "\e963";
+}
+.icon-notification:before {
+  content: "\e964";
+}
+.icon-online-money:before {
+  content: "\e965";
+}
+.icon-online-pharmacy:before {
+  content: "\e966";
+}
+.icon-order-checkout:before {
+  content: "\e967";
+}
+.icon-order-cost:before {
+  content: "\e968";
+}
+.icon-parcel-send:before {
+  content: "\e969";
+}
+.icon-pricing:before {
+  content: "\e96a";
+}
+.icon-promocode:before {
+  content: "\e96b";
+}
+.icon-promotion:before {
+  content: "\e96c";
+}
+.icon-reception:before {
+  content: "\e96d";
+}
+.icon-refer:before {
+  content: "\e96e";
+}
+.icon-rental:before {
+  content: "\e96f";
+}
+.icon-restaurent:before {
+  content: "\e970";
+}
+.icon-review:before {
+  content: "\e971";
+}
+.icon-ride:before {
+  content: "\e972";
+}
+.icon-schedule-booking:before {
+  content: "\e973";
+}
+.icon-social-media:before {
+  content: "\e974";
+}
+.icon-someone-else:before {
+  content: "\e975";
+}
+.icon-sos:before {
+  content: "\e976";
+}
+.icon-surcharge:before {
+  content: "\e977";
+}
+.icon-take-away1:before {
+  content: "\e978";
+}
+.icon-taxi:before {
+  content: "\e979";
+}
+.icon-taxi-booking-app:before {
+  content: "\e97a";
+}
+.icon-taxi-driver:before {
+  content: "\e97b";
+}
+.icon-toll-road:before {
+  content: "\e97c";
+}
+.icon-tow-truck:before {
+  content: "\e97d";
+}
+.icon-tracking1:before {
+  content: "\e97e";
+}
+.icon-vehicle-options:before {
+  content: "\e97f";
+}
+.icon-wallet3:before {
+  content: "\e980";
+}
+.icon-wallet-credit-pay:before {
+  content: "\e981";
+}
+.icon-wheelchair:before {
+  content: "\e982";
+}
+.icon-x-y-location:before {
+  content: "\e983";
+}
+.icon-quality:before {
+  content: "\e91c";
+}
+.icon-respect:before {
+  content: "\e91d";
+}
+.icon-shopping:before {
+  content: "\e91e";
+}
+.icon-like:before {
+  content: "\e91f";
+}
+.icon-padlock:before {
+  content: "\e920";
+}
+.icon-database:before {
+  content: "\e921";
+}
+.icon-free:before {
+  content: "\e922";
+}
+.icon-privacy-policy:before {
+  content: "\e924";
+}
+.icon-processing:before {
+  content: "\e925";
+}
+.icon-upgrade:before {
+  content: "\e926";
+}
+.icon-application:before {
+  content: "\e901";
+}
+.icon-app1:before {
+  content: "\e900";
+}
+.icon-booking:before {
+  content: "\e902";
+}
+.icon-cancel:before {
+  content: "\e903";
+}
+.icon-computer:before {
+  content: "\e904";
+}
+.icon-dashboard:before {
+  content: "\e905";
+}
+.icon-license:before {
+  content: "\e906";
+}
+.icon-local:before {
+  content: "\e907";
+}
+.icon-money:before {
+  content: "\e908";
+}
+.icon-nda:before {
+  content: "\e909";
+}
+.icon-source-code1:before {
+  content: "\e90a";
+}
+.icon-stamp:before {
+  content: "\e90b";
+}
+.icon-support:before {
+  content: "\e90c";
+}
+.icon-translate:before {
+  content: "\e90d";
+}
+.icon-update1:before {
+  content: "\e90e";
+}
+.icon-wallet:before {
+  content: "\e90f";
+}
+.icon-web:before {
+  content: "\e910";
+}
+.icon-advanced-analytics:before {
+  content: "\e911";
+}
+.icon-printer:before {
+  content: "\e912";
+}
+.icon-statistics:before {
+  content: "\e913";
+}
+.icon-transfer-money:before {
+  content: "\e914";
+}
+.icon-wallet1:before {
+  content: "\e915";
+}
+.icon-wallet2:before {
+  content: "\e916";
+}
+.icon-file:before {
+  content: "\e917";
+}
+.icon-mobile:before {
+  content: "\e918";
+}
+.icon-order:before {
+  content: "\e919";
+}
+.icon-programmer:before {
+  content: "\e91a";
+}
+.icon-website:before {
+  content: "\e91b";
+}
+.icon-massage:before {
+  content: "\e923";
+}
+.icon-dashboard1:before {
+  content: "\e927";
+}
+.icon-tracking:before {
+  content: "\e928";
+}
+.icon-car:before {
+  content: "\e929";
+}
+.icon-meal:before {
+  content: "\e92a";
+}
+.icon-shop:before {
+  content: "\e92b";
+}
+.icon-uniE92C:before {
+  content: "\e92c";
+}
+.icon-uniE92D:before {
+  content: "\e92d";
+}
+.icon-shopping-cart:before {
+  content: "\e92e";
+}
+.icon-tracking-location:before {
+  content: "\e92f";
+}
+.icon-submit:before {
+  content: "\e930";
+}
+.icon-payment:before {
+  content: "\e931";
+}
+.icon-panic-sos-emergency-button:before {
+  content: "\e932";
+}
+.icon-face-scan:before {
+  content: "\e933";
+}
+.icon-ride-now-or-ride-later-copy:before {
+  content: "\e934";
+}
+.icon-gift:before {
+  content: "\e935";
+}
+.icon-geolocation:before {
+  content: "\e936";
+}
+.icon-Doorstep:before {
+  content: "\e937";
+}
+.icon-biding:before {
+  content: "\e938";
+}
+.icon-uiux1:before {
+  content: "\e939";
+}
+.icon-fill-carrent:before {
+  content: "\e98a";
+}
+.icon-fill-store:before {
+  content: "\e98b";
+}
+.icon-fill-nearby:before {
+  content: "\e98c";
+}
+.icon-fill-genral-item:before {
+  content: "\e98d";
+}
+.icon-fill-medical-services:before {
+  content: "\e98e";
+}
+.icon-fill-tracking-famaily-and-friends:before {
+  content: "\e98f";
+}
+.icon-fill-carpoll:before {
+  content: "\e990";
+}
+.icon-filll-real-estae:before {
+  content: "\e991";
+}
+.icon-fill-hanymna:before {
+  content: "\e992";
+}
+.icon-fill-video-conslutions:before {
+  content: "\e993";
+}
+.icon-fill-bid:before {
+  content: "\e994";
+}
+.icon-fill-genine:before {
+  content: "\e995";
+}
+.icon-fill-food:before {
+  content: "\e996";
+}
+.icon-fill-parcel:before {
+  content: "\e997";
+}
+.icon-fill-taxi:before {
+  content: "\e998";
+}
+body {
+    font-family: 'poppins';
+}
+p {
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+ul.gen-listing {
+    margin: 20px 0 20px 0;
+}
+ul.gen-listing li {
+    font-size: 15px;
+    color: #3f3f3f;
+    margin-bottom: 6px;
+    padding: 0 0 0 20px;
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: 0px 9px;
+    line-height: normal;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+* {
+    outline-style: none;
+}
+/******top part**********/
+
+#wrap {
+    margin: 80px auto 0 auto;
+    max-width: 1920px;
+    overflow: hidden;
+}
+#top-part {
+    margin: 0px;
+    padding: 15px 0px;
+    float: left;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    border: none;
+    z-index: 1099;
+    top: 0;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.top-part-inner {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo {
+    margin: 0px;
+    padding: 0px;
+}
+.logo a {
+    display: block;
+    height: 51px;
+}
+.logo a img {
+    vertical-align: top;
+    height: 100%;
+}
+.menu {
+    margin: 0 0 0;
+    padding: 0px;
+}
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.menu ul li {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+.menu ul li a {
+    margin: 0 0 0 15px;
+    padding: 10px 0;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    display: block;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.menu ul li a:hover {
+    color: #f3aa00;
+}
+.menu ul li a.active,
+.menu ul li li a.active,
+.menu ul li:hover > li a {
+    color: #0a0a0a;
+    font-weight: 600;
+}
+.menu ul li li a {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 12px;
+    margin: 0;
+}
+.menu ul li a.last {
+    font-size: 15px;
+    color: #449ec5;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 12px 13px;
+    border-radius: 3px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #449fc5;
+}
+.menu ul li a.sub-menu {
+    padding: 10px 0px 10px 0;
+}
+.drop-menu ul {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+}
+.menu ul li ul li {
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    width: 100%;
+}
+.menu ul li:hover li a {
+    margin: 0 0 0 0;
+    font-size: 16px;
+}
+.menu ul li:hover li a:hover {
+    color: #ff6e00;
+}
+button.menu-btn {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    /* for removing the highlight */
+}
+.menu ul li li a:hover {
+    background-color: #f1f1f1;
+}
+button.menu-btn span {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+button.menu-btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+button.menu-btn span:last-child {
+    top: 100%;
+    margin-top: -3px;
+}
+/***********************************************/
+
+footer {
+    background-color: #e5e5e5;
+    padding: 0 0 0 0;
+}
+.footer-inner {
+    max-width: 1310px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.footer-column h5 {
+    font-size: 24px;
+    color: #ff6e00;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+}
+.footer-column > ul li a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #545454;
+    text-decoration: none;
+    outline: none;
+}
+.footer-column > ul li {
+    margin-bottom: 12px;
+}
+.footer-inner-block strong {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer-inner-block ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.footer-inner-block ul li a {
+    color: #ff6e00;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.footer-inner-block:last-child ul li a {
+    color: #ff6e00;
+}
+.footer-inner-block {
+    margin-bottom: 30px;
+}
+.address-block b {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ff6e00;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.address-block span {
+    display: block;
+    margin: 1px 0 4px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.address-block {
+    font-weight: 500;
+    font-size: 14px;
+    color: #545454;
+    line-height: 25px;
+}
+.footer-inner-block ul li span {
+    color: #a2a2a2;
+    font-size: 14px;
+}
+.footer-top {
+    padding: 75px 0px 0px;
+}
+
+
+.footer-top-social-links ul {
+    display: flex;
+}
+.footer-top-social-links ul li {
+    margin: 0 5px;
+}
+.footer-top-social-links ul li a {
+    width: 36px;
+    height: 36px;
+    background-image: url(../images/socials.png);
+    display: block;
+}
+.footer-top-social-links ul li a:hover {
+    background-position-y: -36px !important;
+}
+.footer-top-social-links ul li:last-child {
+    margin: 0;
+}
+.footer-top-social-links ul li a.tw {
+    background-position: -44px 0;
+}
+.footer-top-social-links ul li a.linkedin {
+    background-position: -89px 0;
+}
+.footer-top-social-links ul li a.youtube {
+    background-position: -134px 0;
+}
+.footer-top-social-links ul li a.pin {
+    background-position: -183px 0;
+}
+.footer-top-social-links ul li a.insta {
+    background-position: -233px 0;
+}
+.text-center{text-align: center;}
+
+.footer-bottom {
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+}
+.footer-bottom span {
+    font-size: 14px;
+    color: #545454;
+    line-height: normal;
+}
+.footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-social img{
+    max-width: 100%;
+}
+.footer-bottom ul {
+    display: flex;
+    gap: 10px;
+}
+.footer-bottom ul li a {
+    width: 36px;
+    height: 36px;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    top: 0;
+}
+.footer-bottom ul li a:hover {
+    top: -3px;
+}
+.footer-bottom .footer-inner {
+    align-items: center;
+}
+.footer-bottom span a {
+    color: #ff6e00;
+}
+.footer-inner.dmca a {
+    display: inline-block;
+}
+.footer-inner.dmca {
+    justify-content: center;
+    margin-top: 20px;
+}
+/****************************************/
+
+select::-ms-expand {
+    display: none;
+}
+
+/****************************************/
+
+@media screen and (max-width: 1279px) {
+    .menu ul li a {
+        margin: 0 0 0 15px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .menu {
+        display: block !important;
+    }
+    .menu ul li:hover .drop-menu {
+        display: block !important;
+    }
+    .drop-menu {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        right: 0;
+        display: none !important;
+        width: 215px;
+        padding: 22px 0 0;
+    }
+    .drop-menu ul:before {
+        content: '';
+        position: absolute;
+        border-bottom: 16px solid #dddd;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -16px;
+        left: 50px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .menu {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #f8f8f8;
+    }
+    .menu ul {
+        display: block;
+        border-top: 1px solid #ddd;
+    }
+    .menu ul li {
+        display: block;
+        border-bottom: 1px solid #ddd;
+    }
+    .menu ul li a,
+    .menu ul li a.sub-menu {
+        margin: 0;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .drop-menu {
+        display: none;
+    }
+    .drop-menu ul {
+        filter: none;
+        -webkit-filter: none;
+    }
+    .menu ul li a.last {
+        border-radius: 0;
+        color: #000;
+        background-color: #ff6e0033;
+        width: 100%;
+    }
+    .menu ul li a.sub-menu {
+        background-position: center right 10px;
+    }
+    button.menu-btn {
+        display: block;
+    }
+    .menu ul li ul {
+        position: relative;
+        width: 100%;
+        top: auto;
+        left: auto;
+        margin: 0;
+        border-bottom: none;
+        border-width: 1px 0 0 0;
+    }
+    .menu ul li ul li:last-child {
+        border-bottom: none;
+    }
+    .menu ul li a.sub-menu {
+        background-image: none;
+    }
+    .menu ul li a.sub-menu:after {
+        right: 15px;
+        top: 16px;
+    }
+    .menu ul li a.sub-menu:after {
+        content: '';
+        position: absolute;
+        border-top: 8px solid #333;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+    }
+    .menu ul li a.sub-menu.active-menu:after {
+        content: '';
+        position: absolute;
+        border-top: 0 solid #333;
+        border-bottom: 8px solid #333;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        top: 13px;
+    }
+    .footer-social {
+        flex-direction: column;
+        align-items: center;
+    }
+    /************************************************/
+    .footer-column {
+        width: 50%;
+    }
+    .footer-bottom span {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+    }
+    .footer-bottom .footer-inner {
+        display: block;
+        text-align: center;
+    }
+    .footer-bottom ul {
+        justify-content: center;
+    }
+    .footer-bottom ul li {
+        margin: 0 5px;
+    }
+    /************************************************/
+}
+@media screen and (max-width: 530px) {
+    .footer-column {
+        width: 100%;
+    }
+    .footer-column:last-child h5 {
+        display: none;
+    }
+    .logo a {
+        display: block;
+        height: 37px;
+    }
+}
+@media screen and (max-width: 767px) and (max-height: 719px) {
+    .menu {
+        overflow-y: auto;
+        height: calc(100vh - 73px);
+        height: -o-calc(100vh - 73px);
+        height: -ms-calc(100vh - 73px);
+        height: -moz-calc(100vh - 73px);
+        height: -webkit-calc(100vh - 73px);
+        overflow-x: hidden;
+    }
+}

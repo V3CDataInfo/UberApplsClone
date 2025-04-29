@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.pagetitle {
+    padding: 40px 0 0 0;
+}
+.pagetitle-inner {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.page-heading {
+    font-size: 41px;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.play-anim-ico {
+    background-image: url(../images/xride-app-flow-new/play-button.svg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    left: 55%;
+    top: 50%;
+    z-index: 11;
+    margin-top: -25px;
+    margin-left: -25px;
+    pointer-events: none;
+}
+.play-anim-ico:after {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    content: '';
+    left: 50%;
+    top: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: -12px 0 0 -12px;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 0 0 0 13px #ff6e00;
+    transform: scale(.9);
+    transform-origin: center center;
+    animation: pulse-me 1s linear infinite;
+    -webkit-animation: pulse-me 1s linear infinite;
+}
+@keyframes pulse-me {
+    0% {
+        transform: scale(.9);
+        opacity: .2;
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9)
+    }
+
+    50% {
+        opacity: .5
+    }
+
+    70% {
+        opacity: .09
+    }
+
+    100% {
+        transform: scale(2.1);
+        opacity: 0;
+        -webkit-transform: scale(2.1);
+        -moz-transform: scale(2.1);
+        -ms-transform: scale(2.1);
+        -o-transform: scale(2.1)
+    }
+}
+/**********************/
+p {
+    font-size: 15px;
+    color: #000;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.graphical-manual-flow {
+    text-align: center;
+}
+#midd-part {
+    max-width: 1920px;
+    margin: 80px auto 0 auto;
+}
+._MT0_ {
+    margin-top: 0 !important;
+}
+._PT0_ {
+    padding-top: 0 !important;
+}
+[class*="boxcolor"] {
+    border-bottom: 1px solid #ddd;
+}
+.boxcolor1 {
+    background-color: #fdf5f5;
+}
+.boxcolor2 {
+    background-color: #fcf9f2;
+}
+.boxcolor3 {
+    background-color: #f9fff4;
+}
+.boxcolor4 {
+    background-color: #f4feff;
+}
+.white_bg {
+    background-color: #fff !important;
+}
+.gray_bg {
+    background-color: #f8f8f8 !important;
+}
+._PT0_ {
+    padding-top: 0 !important;
+}
+.width-custom .mobile-step5-inner-right {
+    width: 320px;
+}
+.width-custom .mobile-step5-inner-left {
+    width: calc(100% - 327px);
+    width: -webkit-calc(100% - 327px);
+    width: -moz-calc(100% - 327px);
+    width: -ms-calc(100% - 327px);
+    width: -o-calc(100% - 327px);
+}
+.for-mob img,.for-mob {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+/* ///////////////////////////// */
+.gray-bg {
+    background-color: #F8F8F8;
+}
+/****************************************/
+.banner .heading-area span~h1 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+.banner-inner {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .heading-area span {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+}
+.banner-right {
+    width: 580px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.banner-left {
+    width: calc(100% - 600px);
+    width: -o-calc(100% - 600px);
+    width: -ms-calc(100% - 600px);
+    width: -moz-calc(100% - 600px);
+    width: -webkit-calc(100% - 600px);
+}
+.banner {
+    background-color: #fffae2;
+    padding: 40px 0;
+}
+.banner .heading-area {
+    margin-bottom: 15px;
+}
+.banner-caption b {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #545454;
+    font-weight: 600;
+}
+.banner-right .cell-phone {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+.banner-right[class*="icon"] {
+    position: absolute;
+}
+.banner-right .icon1 {
+    left: 444px;
+    top: -40px;
+}
+.banner-right .icon2 {
+    bottom: 0;
+    left: 279px;
+}
+.button-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-gap: 15px;
+    margin-top: 20px;
+}
+.button-block a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e69c24;
+    padding: 0 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 50px;
+    grid-gap: 7px;
+}
+.button-block a:hover{
+    background-color: #c58319;
+}
+.button-block a img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+/****************************************/
+@media screen and (max-width: 991px) {
+    .banner .heading-area span~h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+    /* ======================================= */
+    .banner-left {
+        width: 100%;
+    }
+    .banner-right {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
+    }
+    .banner-right img:last-child {
+        position: relative;
+    }
+    .banner-inner {
+        flex-direction: column-reverse;
+    }
+    .banner-right img:last-child {
+        width: auto;
+        max-width: 100%;
+    }
+    .banner p {
+        text-align: justify;
+    }
+    .page-heading {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .banner .heading-area span~h1 {
+        font-size: 28px;
+        line-height: 1.2em;
+    }
+    .banner .heading-area span {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 0 0 5px 0;
+    }
+    .page-heading {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .banner-caption img {
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+    .page-heading {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 568px) {
+    #midd-part {
+        margin: 66px auto 0 auto;
+    }
+}
